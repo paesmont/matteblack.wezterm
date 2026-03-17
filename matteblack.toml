@@ -22,26 +22,26 @@ tab_bar_active_tab_bg = "#121212"
 tab_bar_inactive_tab_fg = "#8A8A8D"
 tab_bar_inactive_tab_bg = "#0D0D0D"
 
-# ANSI colors (must be array!)
+# ANSI colors (array format - no comments allowed!)
 ansi = [
-  "#333333",  -- black
-  "#B91C1C",  -- red
-  "#059669",  -- green
-  "#FBBF24",  -- yellow
-  "#3B82F6",  -- blue
-  "#8D20B2",  -- magenta
-  "#1EA7A0",  -- cyan
-  "#EAEAEA",  -- white
+  "#333333",
+  "#B91C1C",
+  "#059669",
+  "#FBBF24",
+  "#3B82F6",
+  "#8D20B2",
+  "#1EA7A0",
+  "#EAEAEA",
 ]
 
-# Bright colors (must be array!)
+# Bright colors (array format - no comments allowed!)
 brights = [
-  "#8A8A8D",  -- bright black
-  "#DC2626",  -- bright red
-  "#10B981",  -- bright green
-  "#EFBF04",  -- bright yellow
-  "#3B82F6",  -- bright blue
-  "#B027DE",  -- bright magenta
-  "#1EA7A0",  -- bright cyan
-  "#FFFFFF",  -- bright white
+  "#8A8A8D",
+  "#DC2626",
+  "#10B981",
+  "#EFBF04",
+  "#3B82F6",
+  "#B027DE",
+  "#1EA7A0",
+  "#FFFFFF",
 ]
