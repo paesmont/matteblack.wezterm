@@ -1,0 +1,115 @@
+# Matteblack color scheme for Wezterm
+# Based on matteblack.nvim by Taha Nejad
+
+[colors]
+background = '#0D0D0D'
+foreground = '#EAEAEA'
+
+# Cursor colors
+cursor_bg = '#121212'
+cursor_fg = '#F59E0B'
+cursor_border = '#F59E0B'
+
+# Selection colors
+selection_bg = '#262626'
+selection_fg = '#FFFFFF'
+
+# Scrollbar
+scrollbar_thumb = '#333333'
+
+# Tab bar
+tab_bar_bg = '#0D0D0D'
+tab_bar_active_tab_fg = '#EAEAEA'
+tab_bar_active_tab_bg = '#121212'
+tab_bar_inactive_tab_fg = '#8A8A8D'
+tab_bar_inactive_tab_bg = '#0D0D0D'
+
+# ANSI colors
+[colors.ansi]
+black = '#333333'
+red = '#B91C1C'
+green = '#059669'
+yellow = '#FBBF24'
+blue = '#3B82F6'
+magenta = '#8D20B2'
+cyan = '#1EA7A0'
+white = '#EAEAEA'
+
+# Bright ANSI colors
+[colors.ansi_bright]
+black = '#8A8A8D'
+red = '#DC2626'
+green = '#10B981'
+yellow = '#EFBF04'
+blue = '#3B82F6'
+magenta = '#B027DE'
+cyan = '#1EA7A0'
+white = '#FFFFFF'
+
+# Indexed colors (256 color palette)
+[colors.indexed]
+color_0 = '#333333'
+color_1 = '#B91C1C'
+color_2 = '#129B70'
+color_3 = '#F59E0B'
+color_4 = '#325DCA'
+color_5 = '#8D20B2'
+color_6 = '#1EA7A0'
+color_7 = '#BEBEBE'
+color_8 = '#8A8A8D'
+color_9 = '#E62222'
+color_10 = '#22C55E'
+color_11 = '#F1CB42'
+color_12 = '#3C71F6'
+color_13 = '#B027DE'
+color_14 = '#24D0C7'
+color_15 = '#FFFFFF'
+
+# Terminal colors (for nested terminals)
+[colors.terminal_colors]
+background = '#0D0D0D'
+foreground = '#EAEAEA'
+
+# Alternate background colors
+[colors.dim]
+black = '#1A1A1A'
+red = '#7F1D1D'
+green = '#064E40'
+yellow = '#78350F'
+blue = '#1E3A8A'
+magenta = '#581C87'
+cyan = '#134E4A'
+white = '#404040'
+
+# Bold colors (slightly brighter)
+[colors.bold]
+black = '#4A4A4A'
+red = '#DC2626'
+green = '#10B981'
+yellow = '#F59E0B'
+blue = '#60A5FA'
+magenta = '#A855F7'
+cyan = '#2DD4BF'
+white = '#FFFFFF'
+
+# Italic colors
+[colors.italic]
+black = '#4A4A4A'
+red = '#F87171'
+green = '#34D399'
+yellow = '#FBBF24'
+blue = '#60A5FA'
+magenta = '#C084FC'
+cyan = '#22D3EE'
+white = '#EAEAEA'
+
+# Underline colors
+[colors.underline]
+black = '#333333'
+red = '#DC2626'
+green = '#10B981'
+yellow = '#F59E0B'
+blue = '#3B82F6'
+magenta = '#8D20B2'
+cyan = '#1EA7A0'
+white = '#EAEAEA'
