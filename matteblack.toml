@@ -10,7 +10,7 @@ name = "matteblack"
 origin_url = "https://github.com/bashln/matteblack.wezterm"
 
 [colors]
-background = "#0D0D0D"
+background = "#121212"
 foreground = "#EAEAEA"
 cursor_bg = "#121212"
 cursor_fg = "#F59E0B"
