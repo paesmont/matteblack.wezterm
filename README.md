@@ -4,7 +4,7 @@ A dark, matte black color scheme for Wezterm based on the original [matteblack.n
 
 ## Installation
 
-### Option 1: Via colors directory (recommended)
+### Option 1: Via load_scheme (recommended)
 
 1. Create a `colors` directory in your Wezterm config:
    ```bash
@@ -16,9 +16,13 @@ A dark, matte black color scheme for Wezterm based on the original [matteblack.n
    cp matteblack.toml ~/.config/wezterm/colors/
    ```
 
-3. Add to your `wezterm.lua`:
+3. Add to your `wezterm.lua` (use ABSOLUTE path, not `$HOME`):
    ```lua
    local wezterm = require 'wezterm'
+
+   -- Load the color scheme (use absolute path!)
+   wezterm.color.load_scheme(os.getenv('HOME') .. '/.config/wezterm/colors/matteblack.toml')
+
    local config = {}
 
    if wezterm.config_builder then
@@ -30,26 +34,7 @@ A dark, matte black color scheme for Wezterm based on the original [matteblack.n
    return config
    ```
 
-### Option 2: Via load_scheme
-
-Load the theme programmatically in your `wezterm.lua`:
-```lua
-local wezterm = require 'wezterm'
-
-wezterm.color.load_scheme(os.getenv('HOME') .. '/.config/wezterm/matteblack.toml')
-
-local config = {}
-
-if wezterm.config_builder then
-  config = wezterm.config_builder()
-end
-
-config.color_scheme = 'matteblack'
-
-return config
-```
-
-### Option 3: Inline in config
+### Option 2: Inline in config
 
 Define the colors directly in your `wezterm.lua`:
 ```lua

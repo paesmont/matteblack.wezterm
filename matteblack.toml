@@ -1,5 +1,9 @@
 # Matteblack color scheme for Wezterm
 # Based on matteblack.nvim by Taha Nejad
+# vim:filetype=toml
+
+[metadata]
+name = "matteblack"
 
 [colors]
 background = '#0D0D0D'
