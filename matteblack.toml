@@ -15,14 +15,15 @@ selection_bg = "#262626"
 selection_fg = "#FFFFFF"
 scrollbar_thumb = "#333333"
 
-# Tab bar
-tab_bar_bg = "#0D0D0D"
-tab_bar_active_tab_fg = "#EAEAEA"
-tab_bar_active_tab_bg = "#121212"
-tab_bar_inactive_tab_fg = "#8A8A8D"
-tab_bar_inactive_tab_bg = "#0D0D0D"
+# Tab bar (separate section!)
+[colors.tab_bar]
+background = "#0D0D0D"
+active_tab_fg = "#EAEAEA"
+active_tab_bg = "#121212"
+inactive_tab_fg = "#8A8A8D"
+inactive_tab_bg = "#0D0D0D"
 
-# ANSI colors (array format - no comments allowed!)
+# ANSI colors (array format)
 ansi = [
   "#333333",
   "#B91C1C",
@@ -34,7 +35,7 @@ ansi = [
   "#EAEAEA",
 ]
 
-# Bright colors (array format - no comments allowed!)
+# Bright colors (array format)
 brights = [
   "#8A8A8D",
   "#DC2626",
