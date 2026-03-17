@@ -14,35 +14,12 @@ cursor_border = "#F59E0B"
 selection_bg = "#262626"
 selection_fg = "#FFFFFF"
 scrollbar_thumb = "#333333"
+ansi = ["#333333", "#B91C1C", "#059669", "#FBBF24", "#3B82F6", "#8D20B2", "#1EA7A0", "#EAEAEA"]
+brights = ["#8A8A8D", "#DC2626", "#10B981", "#EFBF04", "#3B82F6", "#B027DE", "#1EA7A0", "#FFFFFF"]
 
-# Tab bar (separate section!)
 [colors.tab_bar]
 background = "#0D0D0D"
 active_tab_fg = "#EAEAEA"
 active_tab_bg = "#121212"
 inactive_tab_fg = "#8A8A8D"
 inactive_tab_bg = "#0D0D0D"
-
-# ANSI colors (array format)
-ansi = [
-  "#333333",
-  "#B91C1C",
-  "#059669",
-  "#FBBF24",
-  "#3B82F6",
-  "#8D20B2",
-  "#1EA7A0",
-  "#EAEAEA",
-]
-
-# Bright colors (array format)
-brights = [
-  "#8A8A8D",
-  "#DC2626",
-  "#10B981",
-  "#EFBF04",
-  "#3B82F6",
-  "#B027DE",
-  "#1EA7A0",
-  "#FFFFFF",
-]
